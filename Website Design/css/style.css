@@ -7,36 +7,50 @@ body {
 }
 
 /***************************************** Navigation Page *******************************************/
+nav {
+	background: #fff;
+	box-shadow: 2px 2px 5px 1px #ddd;
+}
+
+#navbarCollapse li a{
+	color: #c72323;
+	transition: 0.5s;
+}
+
+#navbarCollapse li a:hover {
+	transform: scale(1.1);
+
+}
 
 #carousel_img {
 	object-fit: cover;
 }
 
 #searchbtn {
-	background: #ff6a06;
+	background: #c72323;
 	border: 0;
 }
 
 #searchbtn:hover {
-    opacity: 0.9;
+    background: #d92727;
 }
 
 /***************************************** Home Page **************************************************/
 
 /*Categories button section*/
 #nav-tabs li a{
-	border: 1px solid #343a40; 
-    color: #343a40;
+	border: 1px solid #c72323; 
+    color: #c72323;
     margin: 5px;
 }
 
 #nav-tabs li a:hover{
-    background: #343a40;
+    background: #c72323;
     color: #fff;
 }
 
 #nav-tabs li a.active{
-    background: #343a40;
+    background: #c72323;
     color: #fff;
 }
 
@@ -44,7 +58,7 @@ body {
 
 /* Products Section */
 #prod_container:hover {
-	box-shadow: 2px 2px 10px 5px #bbb;
+	box-shadow: 2px 2px 10px 2px #bbb;
 }
 
 #prod_img {
@@ -58,10 +72,12 @@ body {
 }
 
 #prod_price {
-	color: #ff6a06;
+	color: #c72323;
 	font-size: 18px;
 }
 
+
+/***************************************** Footer Section **************************************************/
 .footer {
 	background: #fff;
 }
@@ -69,7 +85,7 @@ body {
 #footer_title {
 	font-size: 15px;
 	font-weight: bold;
-	color: #373737;
+	color: #c72323;
 }
 
 #footer_text, #footer_link {
@@ -79,7 +95,7 @@ body {
 }
 
 #footer_link:hover {
-	color: #ff6a06;
+	color: #c72323;
 }
 
 #footer_icon {
@@ -153,17 +169,17 @@ body {
 
 /***************************************** Contact Us Page **************************************************/
 #sendBtn {
-	background: #ff6a06;
+	background: #c72323;
 	border: 0;
 }
 
 #sendBtn:hover {
-	opacity: 0.8;
+	background: #d92727;
 }
 
 #contact_title {
 	font-size: 20px;
-	color: #ff6a06;
+	color: #c72323;
 }
 
 .map-container{
@@ -184,10 +200,43 @@ position:absolute;
 
 /***************************************** Login And Sign Up Section *******************************************/
 #signupBtn, #loginBtn {
-	background: #ff6a06;
+	background: #c72323;
 	color: #fff;
+	border: 0;
 }
 
 #signupBtn:hover, #loginBtn:hover {
-	opacity: 0.8;
+	background: #d92727;
+}
+
+#staticBackdropLabel {
+	color: #c72323;
+}
+
+
+
+/***************************************** About Us Page **************************************************/
+.content-cont {
+	width: 100%;
+	height: auto;
+}
+
+#about-title {
+	color: #c72323;
+}
+
+#sign-up-text {
+	font-size: 14px;
+}
+
+#who-we-are {
+	background: #fff;
+}
+
+#text-maroon {
+	color: #c72323;
+}
+
+#mv-img {
+	width: 100%;
 }

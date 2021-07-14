@@ -1,8 +1,8 @@
 document.write(`
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
 	   <div class="container">
-	   	  <a href="shop.html"><img src="images/logo.png" style="height: 40px;"></a>
+	   	  <a href="shop.html"><img class="img-fluid" src="images/logo.gif" style="height: 40px;"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
        	     <span class="navbar-toggler-icon"></span>
           </button>

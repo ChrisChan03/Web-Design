@@ -5,7 +5,7 @@ document.write(`
 	  	  <div class="col-md-3 mb-4 mb-sm-2">
 	  	  	<div class="text-center text-md-left">
 	  	  	  <h4 id="footer_title">ABOUT</h4>
-	  	  	  <p id="footer_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+	  	  	  <p id="footer_text">A whole team focused on developing the perfect digital Design experience for Creatives, Sellers, and innovating Companies.</p>
 	  	  	</div>
 	  	  </div>
 

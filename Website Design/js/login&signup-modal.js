@@ -18,12 +18,12 @@ document.write(`
 	            <div class="form-group">
 	            	<label>Password</label>
 	            	<input type="password" name="pass" class="form-control" placeholder="Your password">
-	            	<p class="text-center mt-1"><a href="#">Forgot your password?</a></p>
+	            	<p id="sign-up-text" class="text-center mt-1"><a href="#">Forgot your password?</a></p>
 	            </div>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="submit" class="btn btn-warning form-control" id="loginBtn">LOGIN</button>
-		        <p class="mx-auto">Need account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signupForm">Create now.</a></p>
+		        <p id="sign-up-text" class="mx-auto">Need account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signupForm">Create now.</a></p>
 		      </div>
 	      </form>
 	    </div>
@@ -79,11 +79,11 @@ document.write(`
 					  <label class="custom-control-label" for="customRadioInline2">Female</label>
 					</div>
 	            </div>
-	            <p class="text-center mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginForm">Login now.</a></p>
+	            <p id="sign-up-text" class="text-center mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginForm">Login now.</a></p>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="submit" class="btn btn-warning form-control" id="signupBtn">SIGN UP</button>
-		        <p>By clicking "SIGN UP", you are agree to our <a href="#">Terms and Condition.</a></p>
+		        <p class="mx-auto" id="sign-up-text">By clicking "SIGN UP", you are agree to our <a href="#">Terms and Condition.</a></p>
 		      </div>
 	      </form>
 	    </div>
