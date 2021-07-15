@@ -21,6 +21,9 @@ document.write(`
        	  	    </li>
        	     </ul>
        	     <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                 <a href="#" class="nav-link" data-toggle="modal" data-target="#orderForm">Order Form</a>
+              </li>
        	     	<li class="nav-item">
        	  	 	   <a href="#" class="nav-link" data-toggle="modal" data-target="#loginForm">Login</a>
        	  	 	</li>

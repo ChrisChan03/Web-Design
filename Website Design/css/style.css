@@ -6,6 +6,15 @@ body {
 	background: #eee;
 }
 
+#btn-red {
+	background: #c72323;
+	color: #fff;
+}
+
+#btn-red:hover {
+	background: #d92727;
+}
+
 /***************************************** Navigation Page *******************************************/
 nav {
 	background: #fff;
