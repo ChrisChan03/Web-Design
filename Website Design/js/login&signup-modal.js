@@ -69,12 +69,6 @@ document.write(`
 	            <div class="form-group">
 	            	<input type="password" class="form-control" placeholder="Re-type Password" required>
 	            </div>
-	            <div class="form-group">
-					<div class="custom-file">
-						<input type="file" class="custom-file-input" id="customFile">
-						<label class="custom-file-label" for="customFile">Add screenshot of product</label>
-					</div>
-	            </div>
 	            <p id="sign-up-text" class="text-center mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginForm">Login now.</a></p>
 		      </div>
 		      <div class="modal-footer">
