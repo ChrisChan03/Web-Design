@@ -28,7 +28,7 @@ document.write(`
        	  	 	   <a href="#" class="nav-link" data-toggle="modal" data-target="#loginForm">Login</a>
        	  	 	</li>
        	  	 	<li class="nav-item">
-       	  	 	   <a href="#" class="nav-link" data-toggle="modal" data-target="#signupForm">Order</a>
+       	  	 	   <a href="#" class="nav-link" data-toggle="modal" data-target="#signupForm">Sign Up</a>
        	  	 	</li>
        	     </ul>
        	     <form class="form-inline ml-auto">
