@@ -70,13 +70,9 @@ document.write(`
 	            	<input type="password" class="form-control" placeholder="Re-type Password" required>
 	            </div>
 	            <div class="form-group">
-	            	<div class="custom-control custom-radio custom-control-inline">
-					  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" required>
-					  <label class="custom-control-label" for="customRadioInline1">Male</label>
-					</div>
-					<div class="custom-control custom-radio custom-control-inline">
-					  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" required>
-					  <label class="custom-control-label" for="customRadioInline2">Female</label>
+					<div class="custom-file">
+						<input type="file" class="custom-file-input" id="customFile">
+						<label class="custom-file-label" for="customFile">Add screenshot of product</label>
 					</div>
 	            </div>
 	            <p id="sign-up-text" class="text-center mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginForm">Login now.</a></p>
