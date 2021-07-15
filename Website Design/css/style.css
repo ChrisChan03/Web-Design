@@ -237,6 +237,12 @@ position:absolute;
 	color: #c72323;
 }
 
+#mv-parent-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 #mv-img {
 	width: 100%;
 }
