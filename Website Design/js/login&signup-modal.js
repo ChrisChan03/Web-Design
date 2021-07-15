@@ -36,7 +36,7 @@ document.write(`
 	    <div class="modal-content">
 	      <form method="POST" action="">
 		      <div class="modal-header">
-		        <h5 class="modal-title" id="staticBackdropLabel">Sign Up Form</h5>
+		        <h5 class="modal-title" id="staticBackdropLabel">Order Form</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
@@ -78,8 +78,8 @@ document.write(`
 	            <p id="sign-up-text" class="text-center mt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#loginForm">Login now.</a></p>
 		      </div>
 		      <div class="modal-footer">
-		        <button type="submit" class="btn btn-warning form-control" id="signupBtn">SIGN UP</button>
-		        <p class="mx-auto" id="sign-up-text">By clicking "SIGN UP", you are agree to our <a href="#">Terms and Condition.</a></p>
+		        <button type="submit" class="btn btn-warning form-control" id="signupBtn">PLACE ORDER</button>
+		        <p class="mx-auto" id="sign-up-text">By clicking "PLACE ORDER", you are agree to our <a href="#">Terms and Condition.</a></p>
 		      </div>
 	      </form>
 	    </div>
